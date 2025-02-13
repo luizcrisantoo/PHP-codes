@@ -3,15 +3,11 @@
 require 'autoload.php';
 
 use ScreenMatch\Modelo\{
-    Filme,
-    Episodio,
-    Serie,
-    Genero,
+    Filme, Episodio, Serie, Genero,
 };
 
 use ScreenMatch\Calculos\{
-    CalculadoraDeMaratona,
-    ConversorNotaEstrela
+    CalculadoraDeMaratona, ConversorNotaEstrela
 };
 
 echo "Bem-vindo(a) ao ScreenMatch\n";
