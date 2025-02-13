@@ -1,11 +1,12 @@
 <?php
 
+require 'autoload.php';
+
 use ScreenMatch\Modelo\{
     Filme,
     Episodio,
     Serie,
     Genero,
-    Titulo
 };
 
 use ScreenMatch\Calculos\{
