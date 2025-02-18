@@ -2,6 +2,7 @@
 
 namespace ScreenMatch\Calculos;
 use ScreenMatch\Modelo\Avaliavel;
+use Throwable;
 
 class ConversorNotaEstrela 
 {
@@ -11,7 +12,7 @@ class ConversorNotaEstrela
             $nota = $avaliavel->media();
 
             return round($nota) / 2;
-         } catch (DivisionByZeroError){
+         } catch (Throwable){
             return 0;
          }
      }
